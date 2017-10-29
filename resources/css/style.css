@@ -11,12 +11,3 @@ body {
     color: #fff;
     padding-left: 15px;
 }
-
-.landing-page a {
-    font-size: 24px;
-    background-color: white;
-    padding: 10px;
-    border-radius: 10px;
-    position: relative;
-    top: 90%;
-}
