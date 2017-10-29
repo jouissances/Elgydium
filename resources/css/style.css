@@ -1,6 +1,7 @@
 /* Global CSS */
 body {
-    height: 100%;
+    width: 100%;
+    height: auto;
 }
 
 /* Landing Page CSS */
@@ -10,4 +11,11 @@ body {
     position: absolute;
     color: #fff;
     padding-left: 15px;
+}
+
+button {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
 }
