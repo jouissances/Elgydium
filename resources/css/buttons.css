@@ -741,8 +741,7 @@
 .button--nina {
 	padding: 0 2em;
 	background: #0c118b;
-    position: relative;
-    float: bottom right;
+    position: fixed;
     color: #fff;
 	overflow: hidden;
 	-webkit-transition: background-color 0.3s;
