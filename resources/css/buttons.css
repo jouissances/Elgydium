@@ -1,22 +1,5 @@
-/* Box colors */
-.bg-1 {
-	background: #ECEFF1;
-	color: #37474f;
-}
-.bg-2 {
-	background: #7986cb;
-	color: #ECEFF1;
-}
-.bg-3 {
-	background: #37474f;
-	color: #fff;
-}
-
 /* Common button styles */
 .button {
-	float: left;
-	min-width: 150px;
-	max-width: 250px;
 	display: block;
 	margin: 1em;
 	padding: 1em 2em;
@@ -741,12 +724,12 @@
 .button--nina {
 	padding: 0 2em;
 	background: #0c118b;
-    position: absolute;
+    position: relative;
+    bottom: -30px;
     width: 100%;
-    left: 38%;
-    bottom: 14px;
     display: block;
     color: #fff;
+    margin: 0 auto;
 	overflow: hidden;
 	-webkit-transition: background-color 0.3s;
 	transition: background-color 0.3s;
@@ -832,6 +815,171 @@
 .button--nina:hover > span:nth-child(10) {
 	-webkit-transition-delay: 0.45s;
 	transition-delay: 0.45s;
+}
+
+.button--nina:hover > span:nth-child(11) {
+	-webkit-transition-delay: 0.45s;
+	transition-delay: 0.495s;
+}
+
+.button--nina:hover > span:nth-child(12) {
+	-webkit-transition-delay: 0.45s;
+	transition-delay: 0.540s;
+}
+
+.button--nina:hover > span:nth-child(13) {
+	-webkit-transition-delay: 0.45s;
+	transition-delay: 0.585s;
+}
+
+.button--nina:hover > span:nth-child(14) {
+	-webkit-transition-delay: 0.45s;
+	transition-delay: 0.630s;
+}
+
+.button--nina:hover > span:nth-child(15) {
+	-webkit-transition-delay: 0.45s;
+	transition-delay: 0.675s;
+}
+
+.button--nina:hover > span:nth-child(16) {
+	-webkit-transition-delay: 0.45s;
+	transition-delay: 0.720s;
+}
+
+.button--nina:hover > span:nth-child(17) {
+	-webkit-transition-delay: 0.45s;
+	transition-delay: 0.765s;
+}
+
+.button--nina:hover > span:nth-child(18) {
+	-webkit-transition-delay: 0.45s;
+	transition-delay: 0.810s;
+}
+
+.button--nina:hover > span:nth-child(19) {
+	-webkit-transition-delay: 0.45s;
+	transition-delay: 0.855s;
+}
+
+.button--nina:hover > span:nth-child(20) {
+	-webkit-transition-delay: 0.45s;
+	transition-delay: 0.900s;
+}
+
+.button--nina:hover > span:nth-child(21) {
+	-webkit-transition-delay: 0.45s;
+	transition-delay: 0.945s;
+}
+
+.button--nina:hover > span:nth-child(22) {
+	-webkit-transition-delay: 0.45s;
+	transition-delay: 0.990s;
+}
+
+.button--nina:hover > span:nth-child(23) {
+	-webkit-transition-delay: 0.45s;
+	transition-delay: 1.035s;
+}
+
+.button--nina:hover > span:nth-child(24) {
+	-webkit-transition-delay: 0.45s;
+	transition-delay: 1.080s;
+}
+
+.button--nina:hover > span:nth-child(25) {
+	-webkit-transition-delay: 0.45s;
+	transition-delay: 1.125s;
+}
+
+.button--nina:hover > span:nth-child(26) {
+	-webkit-transition-delay: 0.45s;
+	transition-delay: 1.170s;
+}
+
+.button--nina:hover > span:nth-child(27) {
+	-webkit-transition-delay: 0.45s;
+	transition-delay: 1.215s;
+}
+
+.button--nina:hover > span:nth-child(28) {
+	-webkit-transition-delay: 0.45s;
+	transition-delay: 1.260s;
+}
+
+.button--nina:hover > span:nth-child(29) {
+	-webkit-transition-delay: 0.45s;
+	transition-delay: 1.305s;
+}
+
+.button--nina:hover > span:nth-child(30) {
+	-webkit-transition-delay: 0.45s;
+	transition-delay: 1.350s;
+}
+
+.button--nina:hover > span:nth-child(31) {
+	-webkit-transition-delay: 0.45s;
+	transition-delay: 1.395s;
+}
+
+.button--nina:hover > span:nth-child(32) {
+	-webkit-transition-delay: 0.45s;
+	transition-delay: 1.440s;
+}
+
+.button--nina:hover > span:nth-child(33) {
+	-webkit-transition-delay: 0.45s;
+	transition-delay: 1.485s;
+}
+
+.button--nina:hover > span:nth-child(34) {
+	-webkit-transition-delay: 0.45s;
+	transition-delay: 1.530s;
+}
+
+.button--nina:hover > span:nth-child(35) {
+	-webkit-transition-delay: 0.45s;
+	transition-delay: 1.575s;
+}
+
+.button--nina:hover > span:nth-child(36) {
+	-webkit-transition-delay: 0.45s;
+	transition-delay: 1.620s;
+}
+
+.button--nina:hover > span:nth-child(37) {
+	-webkit-transition-delay: 0.45s;
+	transition-delay: 1.665s;
+}
+
+.button--nina:hover > span:nth-child(38) {
+	-webkit-transition-delay: 0.45s;
+	transition-delay: 1.710s;
+}
+
+.button--nina:hover > span:nth-child(39) {
+	-webkit-transition-delay: 0.45s;
+	transition-delay: 1.755s;
+}
+
+.button--nina:hover > span:nth-child(40) {
+	-webkit-transition-delay: 0.45s;
+	transition-delay: 1.800s;
+}
+
+.button--nina:hover > span:nth-child(41) {
+	-webkit-transition-delay: 0.45s;
+	transition-delay: 1.845s;
+}
+
+.button--nina:hover > span:nth-child(42) {
+	-webkit-transition-delay: 0.45s;
+	transition-delay: 1.890s;
+}
+
+.button--nina:hover > span:nth-child(43) {
+	-webkit-transition-delay: 0.45s;
+	transition-delay: 1.935s;
 }
 
 /* Nanuk */

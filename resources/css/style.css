@@ -2,20 +2,240 @@
 body {
     width: 100%;
     height: auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-/* Landing Page CSS */
-.landing-page {
-    width: 100%;
-    height: 100%;
+/* Home Page CSS */
+.home-page {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../img/home-page.png');
+    background-size: cover;
+    background-position: 5%;
+}
+
+.home-page-caption {
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    border-radius: 0.5rem;
     position: absolute;
-    color: #fff;
-    padding-left: 15px;
+    bottom: 4rem;
+    left: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
+.home-page-caption p {
+    font-family: "Arial Rounded MT Bold";
+    font-size: 1.75rem;
+    padding: 1.25rem 1.5rem 0rem 2rem;
+}
+
+/* Button CSS */
 button {
-    display: block;
+    font-family: "Arial Rounded MT Bold";
+    top: 0px; 
+}
+
+.button--nina {
+    background-color: #fff;
+    color: #000;
+    text-transform: inherit;
+}
+
+.button--nina:hover {
+    background-color: #E27A0D;
+}
+
+/* Decay Protection Range CSS */
+.decay-protection {
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFA700;
+}
+
+.decay-protection-caption {
+    width: 400px;
+    height: 336px;
+    background-color: white;
+    border-radius: 0.5rem;
     position: relative;
-    width: 100%;
-    margin: 0 auto;
+    top: 4rem;
+    left: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.decay-protection-caption p {
+    width: 97%;
+    font-family: "Arial Rounded MT Bold";
+    font-size: 1.5rem;
+    padding: 1rem 0 0 1.25rem;
+}
+
+.decay-protection #dp-adult {
+    height: 90vh;
+    position: absolute;
+    top: 106vh;
+    left: 38vw;
+    transform: rotate(-7deg);
+}
+
+.decay-protection #dp-junior {
+    height: 90vh;
+    position: absolute;
+    top: 116vh;
+    left: 54vw;
+}
+
+.decay-protection #dp-kids {
+    height: 90vh;
+    position: absolute;
+    top: 100vh;
+    left: 70vw;
+    transform: rotate(12deg);
+}
+
+/* Sensitive CSS */
+.sensitive {
+    width: 100vw;
+    height: 100vh;
+    background-color: #00AC71;
+}
+
+.sensitive-caption {
+    width: 400px;
+    height: 280px;
+    background-color: white;
+    border-radius: 0.5rem;
+    position: relative;
+    top: 4rem;
+    left: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.sensitive-caption p {
+    width: 97%;
+    font-family: "Arial Rounded MT Bold";
+    font-size: 1.5rem;
+    padding: 1rem 0 0 1.5rem;
+}
+
+.sensitive #sensitive {
+    height: 90vh;
+    position: absolute;
+    top: 200vh;
+    left: 48vw;
+    transform: rotate(-15deg);
+}
+
+.sensitive #sensitive-tb {
+    height: 90vh;
+    position: absolute;
+    top: 211vh;
+    left: 54vw;
+}
+
+/* Whitening CSS */
+.whitening {
+    width: 100vw;
+    height: 100vh;
+    background-color: #CBD2D3;
+}
+
+.whitening-caption {
+    width: 400px;
+    height: 280px;
+    background-color: white;
+    border-radius: 0.5rem;
+    position: relative;
+    top: 4rem;
+    left: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.whitening-caption p {
+    width: 97%;
+    font-family: "Arial Rounded MT Bold";
+    font-size: 1.5rem;
+    padding: 1rem 0 0 1.5rem;
+}
+
+.whitening #whitening-mint {
+    height: 93vh;
+    position: absolute;
+    top: 310vh;
+    left: 35vw;
+    transform: rotate(-12deg);
+}
+
+.whitening #whitening-lemon {
+    height: 95vh;
+    position: absolute;
+    top: 300vh;
+    left: 55vw;
+    transform: rotate(5deg);
+}
+
+/* Antiplaque CSS */
+.antiplaque {
+    width: 100vw;
+    height: 100vh;
+    background-color: #00B7E8;
+}
+
+.antiplaque-caption {
+    width: 400px;
+    height: 280px;
+    background-color: white;
+    border-radius: 0.5rem;
+    position: relative;
+    top: 4rem;
+    left: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.antiplaque-caption p {
+    width: 97%;
+    font-family: "Arial Rounded MT Bold";
+    font-size: 1.5rem;
+    padding: 1rem 0 0 1.5rem;   
+}
+
+.antiplaque #antiplaque-tb {
+    height: 93vh;
+    position: absolute;
+    top: 405vh;
+    left: 38vw;
+    transform: rotate(0deg);
+}
+
+.antiplaque #antiplaque {
+    height: 98vh;
+    position: absolute;
+    top: 400vh;
+    left: 58vw;
+    transform: rotate(5deg);
+}
+
+/* iframe CSS */
+iframe {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 500vh;
+      border: 0;
 }
